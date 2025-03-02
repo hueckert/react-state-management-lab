@@ -88,7 +88,7 @@ const App = () => {
       },
   ])
   const [strength, setStrength] = useState(0);
-  const [agility, setAglity] = useState(0);
+  const [agility, setAgility] = useState(0);
 
   const handleAddFighter = (newFighter) => {
     if (money >= newFighter.price) {
@@ -100,7 +100,7 @@ const App = () => {
       setTeam(newTeam)
       setMoney(newMoney) 
       setStrength(newStrength)
-      setAglity(newAgility)
+      setAgility(newAgility)
 
     } else {
       console.log("Not enough money")
@@ -118,7 +118,7 @@ const App = () => {
     setTeam(newTeam)
     setMoney(newMoney) 
     setStrength(newStrength)
-    setAglity(newAgility)
+    setAgility(newAgility)
 
   }
 
